@@ -2,7 +2,7 @@ def eliminarEspacios(texto):
     res = ""
     for char in texto:
         res += char
-    return res.strip().replace(" ", "").lower()
+    return res.replace(" ", "").lower()
 
 # print("Abba", es_palindromo("Abba"))
 
